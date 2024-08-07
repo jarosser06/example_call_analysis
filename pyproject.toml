@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "call-analysis"
+version = "2024.8.1"
+description = "Workspace for conducting Gong Call analysis"
+authors = ["Jim Rosser <me@j4r.wtf>"]
+license = "All rights reserved"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+gong = {git = "https://github.com/jarosser06/gong.git"}
+boto3 = "^1.34.151"
+anthropic = {extras = ["bedrock"], version = "^0.32.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
