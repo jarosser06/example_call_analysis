@@ -3,7 +3,7 @@ name = "call-analysis"
 version = "2024.8.1"
 description = "Workspace for conducting Gong Call analysis"
 authors = ["Jim Rosser <me@j4r.wtf>"]
-license = "All rights reserved"
+license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]
